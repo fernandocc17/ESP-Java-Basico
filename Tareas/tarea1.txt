@@ -1,0 +1,11 @@
+Tarea 1 Java
+
+Que es una excepcion
+
+4 Ejemplos de excepciones
+
+Diagrama de excepciones (Pagina 441)
+
+Como proteger o capturar una excepcion
+
+Finally

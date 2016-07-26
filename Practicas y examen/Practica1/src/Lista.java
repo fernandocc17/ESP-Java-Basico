@@ -1,0 +1,18 @@
+
+public enum Lista {
+
+	PERSONA,
+	RATON,
+	AVION,
+	AUTOMOVIL,
+	COBRA,
+	CORALILLO,
+	BICICLETA,
+	MOTO,
+	BALLENA,
+	TRICICLO;
+	
+	
+	
+	
+}

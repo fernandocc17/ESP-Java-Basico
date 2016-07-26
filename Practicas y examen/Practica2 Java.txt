@@ -1,0 +1,71 @@
+1)Crear un proyecto llamado Practica2
+2)Crear un paquete donde se guarden todas las interfaces graficas llamado Frames
+3)Crear un paquete donde se guarden todos las clases que nos sirven para modelar llamado Beans
+4)Crear una clase estudiante:
+
+	Atributos
+		Nombre
+		Sexo
+		Ocupacion
+		Grado
+		edad
+	Metodos
+		Constructor
+		Mostrar nombre
+
+5)Crear una clase trabajo:
+
+	Atributos
+		Nombre
+		Sexo
+		Ocupacion
+		Puesto
+		edad
+	Metodos
+		Constructor
+		Mostrar nombre
+		Estoy trabajando
+
+6)Crear una clase otro:
+
+	Atributos
+		Nombre
+		Sexo
+		Ocupacion
+		edad
+	Metodos
+		Constructor
+		Mostrar nombre
+
+7)Crear una clase Nini:
+
+	Atributos
+		Nombre
+		Sexo
+		Ocupacion
+		edad
+	Metodos
+		Constructor
+		Mostrar nombre
+		Hacer Nada
+
+8)Crear una interfaz grafica con los siguientes campos:
+	Textbox para el nombre.
+	2 checkbox para el sexo.
+	Listbox para las ocupaciones con las opciones de :
+		Estudiante
+		Trabajo
+		Otro
+		Nini
+	Boton para crear a la persona.
+	Textbox extra por si se necesita seleccionar otro dato dependiendo de la clase
+	Textbox para la edad
+		
+9)Poner nombres a los objetos y clases basados en las convenciones de Java.
+10)Al dar click en el boton crear un objeto de la clase seleccionada con los datos de la interfaz grafica
+11)Dependiendo del tipo de objeto seleccionado en el listbox mostrar con el nombre correspondiente de lo que representa u ocultarlo si no es necesario.
+
+Extra
+12)Se debe tener una implementacion del constructor por si se envian todos los datos y una por si no se envian se ponga la palabra default en todos los atributos.
+13)Cachar la excepcion del campo edad.
+14)Cuando se seleccione un checkbox desmarcar el otro.

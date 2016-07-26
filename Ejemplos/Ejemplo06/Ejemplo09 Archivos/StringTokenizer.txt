@@ -1,0 +1,59 @@
+BufferedReader BR= new BufferedReader
+(
+	InputStream Reader
+	("archivo.txt")
+);
+
+
+BR.readLine();
+
+
+StringTokenizer   [tiene un metodo next(); para leer]
+
+StringTokenizer st= new StringTokenizer(cadena,"|");  //Podemos definir que caracter sera el 
+
+separador
+
+****************************
+Ejemplo de Fer:
+
+//StringBuffer sb= new StringBuffer();
+//sb.append(Snombre);
+
+String nombre;
+int edad, codigo =0;
+nombre= txtNombre.getText();
+
+try{
+	edad= Integer.parseInt(txtEdad.getText();
+catch (Execption e){
+codigo=0
+}
+
+}
+
+try{
+	codigo= Integer.parseInt(txtCodigo.getText();
+catch (Execption e){
+codigo=0
+}
+
+}
+
+String SEdad, SCodigo;
+SEdad=String.valueOf(edad);
+SCodigo=String.valueOF(Codigo);
+
+try{
+	bw.write(nombre + "|" + SEdad + "|" + SCodigo);
+catch (IOExecption ex){
+Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
+}
+
+}
+
+
+
+
+
+
